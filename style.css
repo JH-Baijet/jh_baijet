@@ -78,6 +78,16 @@ a:active {
 h1 {
   font-size: 60px; 
   color: #818080;
+  width: 100%;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
 }
 h2 {
 font-family: comic;
